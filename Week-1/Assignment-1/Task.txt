@@ -1,0 +1,39 @@
+1.What is a protocol stack, and how is it used in web development?
+Answer => 
+In web development protocol stack is used to established the connection between browers and server. 
+Most commonly used protocolstacks are TCP(Transmission Control Protocol) and IP (Internet Protocol).
+
+2.What are the different types of web servers, and how do they differ in terms of functionality and performance?
+Answer => 
+There are so many different types of web server available like Nginx, Apache, Microsoft etc.
+Each webserver has it's own strengths and weaknesses depending on various conditions like amount traffic adn size of web app.
+Before choosiing the webserver for our website we need to analyse the requirements and features of website.
+
+3.What is web hosting, and what are the different types of hosting services available for websites?
+Answer =>
+Web hosting gives us to make our website online by using internet. There are many different types like
+    1. Shared hosting.
+    2. VPS (Virtual Private Server) hosting.
+    3. Cloud hosting.
+    4. Dedicated hosting.
+    5. Managed hosting.
+Chossing web hosting is depends on the size of websote and amount trafiice it will recieve.
+
+4.What is scaling, and why is it important for web applications? How does scaling differ for vertical and horizontal scaling?
+Answer =>
+Scaling is process where we increase our hosting resources depending on the traffic it recieves.
+There are two types of scaling
+    1.Vertical Scaling.
+    2.Horizontal Scaling.
+In Vertical scaling we increase our hositng resources like RAM, ROM adn CPU.
+In Horizontal scaling we add another server instance so that load is diveded into multiple instances which can be configure.
+
+5.What is SEO (Search Engine Optimization), and how can web developers optimize their websites for better search engine rankings?
+Answer=>
+SEO (Search Engine Optimization) is a preactice to increase the visiblity and rankings of website over google search result so that our website get better traffic.
+There are many best preactice we have to follow to meet google requirements like.
+    1.Quality content.
+    2.Backlinks from high authority website.
+    3.Relevants keywords and tags.
+    4.Website should load fast.
+    5.Internal linking
