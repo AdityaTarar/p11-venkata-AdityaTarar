@@ -1,0 +1,31 @@
+### Situation: You want to inspect the HTML and CSS code of a webpage.
+### Question: Which panel in Chrome DevTools should you use to inspect the DOM and CSS of a webpage?
+### Answer : We will 'Element' Panel from dev DevTools
+
+### Situation: You suspect that a particular JavaScript function is causing errors on a webpage.
+### Question: Which panel in Chrome DevTools should you use to debug the JavaScript code on a webpage?
+### Answer : We can use 'Sources' and 'Console'
+
+### Situation: You want to analyze the network traffic of a webpage and find out which requests are taking the longest time to load.
+### Question: Which panel in Chrome DevTools should you use to analyze the network requests and responses of a webpage?
+### Answer : We can user 'Network' panel to analyse requests where we can see the time taken by each api call.
+
+### Situation: You want to inspect and manipulate browser storage, such as cookies and local storage.
+### Question: Which panel in Chrome DevTools should you use to inspect and manipulate browser storage on a webpage?
+### Answer : We can user 'Application' panel where we have option like cookies, local storage, session storage etc.
+
+### Situation: You want to optimize the performance of a webpage and identify potential bottlenecks.
+### Question: Which panel in Chrome DevTools should you use to analyze the performance of a webpage and identify potential bottlenecks?
+### Answer : We can user 'Performance' panel to analyse.
+
+### Situation: You want to test the security of a webpage and check if it has any vulnerabilities.
+### Question: Which panel in Chrome DevTools should you use to analyze the security of a webpage and identify potential vulnerabilities?
+### Answer : we can user 'Security' and 'Audits' from DevTools.
+
+### Situation: You want to view and modify the CSS styles of a webpage in real-time.
+### Question: Which panel in Chrome DevTools should you use to view and modify the CSS styles of a webpage in real-time?
+### Answer: We can use 'Elements' to see runtime changes in our website.
+
+### Situation: You want to test how a webpage looks and behaves on different screen sizes.
+### Question: Which panel in Chrome DevTools should you use to test the responsiveness of a webpage on different screen sizes?
+### Answer : There is responsive panela availablein DevTools we can user that to check responsiveness.
