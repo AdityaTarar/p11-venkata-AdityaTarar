@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 4fr 4fr 4fr;
+        margin-bottom: 20px;
+      }
+      .grid-item {
+        background-color: rgba(255, 255, 255, 0.8);
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Join a Social Network</h2>
+    <form
+      method="POST"
+      action="http://your-action-url.com"
+      enctype="multipart/form-data"
+    >
+      <div class="grid-container">
+        <label for="fullName" class="grid-item">Full Name:</label>
+        <input
+          type="text"
+          id="fullName"
+          name="fullName"
+          required
+          class="grid-item"
+        />
+      </div>
+      <div class="grid-container">
+        <label for="email" class="grid-item">Email Address:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required
+          class="grid-item"
+        />
+      </div>
+      <div class="grid-container">
+        <label for="about" class="grid-item">About:</label>
+        <textarea
+          id="about"
+          name="about"
+          rows="3"
+          cols="50"
+          class="grid-item"
+        ></textarea>
+      </div>
+      <div class="grid-container">
+        <label for="picture" class="grid-item">Photo:</label>
+        <input type="file" id="picture" name="picture" class="grid-item" />
+      </div>
+      <div>
+        <input type="submit" value="submit" />
+      </div>
+    </form>
+  </body>
+</html>

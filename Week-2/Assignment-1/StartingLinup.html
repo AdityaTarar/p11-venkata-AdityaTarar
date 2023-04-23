@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      fieldset {
+        display: flex;
+        flex-direction: column;
+        max-width: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Game Status:</legend>
+        <div>
+          <input type="radio" id="draft" name="status" value="Draft" />
+          <label for="draft">Draft</label>
+        </div>
+        <div>
+          <input type="radio" id="final" name="status" value="Final" checked />
+          <label for="final">Final</label>
+        </div>
+      </fieldset>
+      <div style="margin: 20px 0px 20px 0px">
+        <label for="gameDate">Game Date:</label>
+        <select id="gameDate" name="gameDate">
+          <option value="2022-03-20">March 20</option>
+          <option value="2022-03-24">March 24</option>
+          <option value="2022-04-02">April 2</option>
+          <option value="2022-04-06">April 6</option>
+          <option value="2022-04-13">April 13</option>
+        </select>
+      </div>
+      <fieldset>
+        <legend>Select Players:</legend>
+        <label>
+          <input type="checkbox" name="player" value="Aarav Agarwal" /> Aarav
+          Agarwal
+        </label>
+        <label>
+          <input type="checkbox" name="player" value="Ava Johnson" /> Ava
+          Johnson
+        </label>
+        <label>
+          <input type="checkbox" name="player" value="Julio Ortiz" /> Julio
+          Ortiz
+        </label>
+        <label>
+          <input type="checkbox" name="player" value="Liam Rubio" /> Liam Rubio
+        </label>
+        <label>
+          <input type="checkbox" name="player" value="Emma Witherspoon" /> Emma
+          Witherspoon
+        </label>
+      </fieldset>
+      <input type="submit" value="submit" />
+    </form>
+  </body>
+</html>
