@@ -1,0 +1,10 @@
+{
+  "name": "wealth-portfolio-api",
+  "version": "1.0.0",
+  "description": "Wealth Portfolio Web API Service",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.13.7"
+  }
+}
