@@ -1,0 +1,17 @@
+a) Find all movies released in a specific year:
+db.movies.find({ release_year: 2022 })
+
+b) Find all movies in a specific genre:
+db.movies.find({ genre: "Action" })
+
+c) Find all movies directed by a specific director:
+db.movies.find({ director_id: ObjectId("director1_id") })
+
+d) Find all movies that a specific actor acted in:
+db.movies.find({ actors: ObjectId("actor1_id") })
+
+e) Find all directors from a specific nationality:
+db.directors.find({ nationality: "Nationality 1" })
+
+f) Find all actors from a specific nationality:
+db.actors.find({ nationality: "Nationality 2" })
